@@ -1,0 +1,22 @@
+div{
+    color: red;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;/*gach chan*/
+    text-transform: lowercase;/*in hoa hay thuong*/
+    line-height: 1.5;/*do cao dong*/
+    text-indent: 1px; /*lui dau dong */
+    font-style: italic;/*kieu chu */
+    text-align: center;/*can chu */
+
+    background-color: antiquewhite;/*mau nen*/
+    background-image: url("../image/as1.1.jpg");
+    /*nguyên lý cây thư mục(con kiến leo cây)
+    ../đi lên
+    thư mục/đi sang
+    tên tệp đi xuống
+    */
+    background-size: contain;/*cover*/
+    background-repeat: no-repeat;/*lặp lại hình nền*/
+}
