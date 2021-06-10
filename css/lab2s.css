@@ -1,0 +1,12 @@
+div{
+    color: darkmagenta;
+    text-decoration-line: underline;
+
+}
+body{
+    height: 2000px;
+    width: 500px;
+}
+hr{
+    border-bottom: 1px solid red;
+}
