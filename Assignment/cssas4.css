@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    color:#333333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #fcfcfc;
+}
+.header {
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+    background-image: url("../image/coffe.jpg");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    border: 1px solid white;
+}
+.toplinks img{
+    width: 20px;
+    height: 20px;
+}
+.toplinks{
+    float: right;
+}
+.logo{
+    width: 25%;
+    float: left;
+    margin: 15px 0 0 80px;
+}
+.logo a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+
+    padding-top: 30px;
+}
+.toplinks ul{
+    float: left;
+}
+.toplinks li{
+    float: left;
+    margin: 15px 20px 15px 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.toplinks  a{
+    color: #222222;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 37px;
+    color: white;
+    text-transform: capitalize;
+}
+.clear{
+    clear: both;
+}
+.headmid{
+    margin:100px;
+}
+.headmid p{
+    text-align: center;
+    color: white;
+}
+#p1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#p2{
+    margin-top: 20px;
+    opacity: 0.7;
+}
+#p3{
+    margin-top: 20px;
+    border: 2px solid white;
+    width: 10%;
+    margin-left: 45%;
+}
+.nav{
+    width: 70%;
+    border: 1px solid white;
+    margin: 30px 12%;
+}
+.content{
+    width: 30%;
+    border: 1px solid white;
+    float: left;
+    margin: 15px 3% 15px 0;
+}
+.content img{
+    width: 100%;
+    height: 200px;
+}
+.content p{
+    margin-top: 20px;
+}
+.content .p1{
+    font-size: 10px;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+.content .p2{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.content .p3{
+    font-size: 10px;
+    opacity: 0.6;
+}
+.content .p4{
+    font-size: 10px;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
