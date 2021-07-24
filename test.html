@@ -8,9 +8,50 @@
 
 </head>
 <body>
-<div class="container">
-    <div class="d1">abc</div>
-</div>
+
+    <div class="d1" style="width: 1000px;">
+        <h2>Personal Detail</h2>
+        <div class="main" style="width: 400px;height: 220px">
+            <div class="col-md-6">Name : </div><input class="col-md-6" type="text">
+            <div class="col-md-6">Address </div><input class="col-md-6" type="text">
+            <div class="col-md-6">Phone : </div><input class="col-md-6" type="number">
+            <div class="col-md-6">email : </div><input class="col-md-6" type="email" >
+            <form class="col-md-12">
+                <div class="col-md-4">Gender</div>
+                <div class="col-md-4">
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Male</label><br>
+                </div>
+                <div class="col-md-4">
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Fermal</label><br>
+                </div>
+
+            </form>
+            <div class="col-md-6">Age : </div><input class="col-md-6" type="number" >
+            <form class="col-md-12">
+                <div class="col-md-3">Qualification</div>
+                <div class="col-md-3">
+                    <input type="radio" id="bbs" name="fav_language" value="HTML">
+                    <label for="html">BCA</label><br>
+                </div>
+                <div class="col-md-3">
+                    <input type="radio" id="aab" name="fav_language" value="CSS">
+                    <label for="css">BA</label><br>
+                </div>
+                 <div class="col-md-3">
+                    <input type="radio" id="a" name="fav_language" value="JavaScript">
+                    <label for="a">BSC</label>
+                 </div>
+            </form>
+
+            <button class="col-md-6" onclick="show()" type="button">continue</button>
+            <button class="col-md-6" onclick="" type="button">Reset</button>
+        </div>
+    </div>
+    <div id="t2"></div>
+
+
 
 
 <script src="js/jquery-3.6.0.min.js"></script>
