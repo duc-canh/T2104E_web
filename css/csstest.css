@@ -4,3 +4,6 @@ body{
 .main{
     border: 1px gray solid;
 }
+.form{
+    margin-left: -20px;
+}
