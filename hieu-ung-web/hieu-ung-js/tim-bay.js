@@ -15,7 +15,7 @@ $(document).ready(function(){
         var sizeR = getRandomArbitrary(40,60);//(5)kích cỡ
         var endLeft = getRandomArbitrary(startLeft-100,startLeft+100);//(6) vị trí đến của tim
         var snow = document.createElement("span");//(7) tạo ra một element
-        $(snow).addClass("snow-item icon-gittip icon-2x").css({
+        $(snow).addClass("snow-item icon-heart icon-2x").css({
             position:"absolute",
             zIndex:"auto",
             color:"red",
